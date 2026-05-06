@@ -1,0 +1,35 @@
+{
+  "age_5": [
+    "at", "in", "on", "it", "is", "an", "go", "no", "so", "be",
+    "up", "us", "am", "do", "if", "me", "my", "we", "ox", "ow",
+    "can", "see", "the", "and", "you", "for", "had", "her", "was", "all"
+  ],
+  "age_6": [
+    "cat", "dog", "the", "and", "you", "for", "had", "her", "was", "all",
+    "are", "but", "not", "big", "did", "get", "has", "him", "his", "how",
+    "its", "let", "may", "new", "now", "old", "one", "our", "out", "put",
+    "say", "she", "too", "two", "way", "who", "boy", "girl", "help", "like",
+    "look", "make", "play", "come", "take", "were", "been", "some", "them", "then"
+  ],
+  "age_7": [
+    "jump", "play", "book", "tree", "fish", "blue", "green", "bird", "frog", "star",
+    "hand", "head", "home", "jump", "kind", "left", "lost", "milk", "name", "park",
+    "room", "school", "ship", "show", "snow", "stop", "talk", "time", "work", "yard",
+    "about", "after", "again", "away", "back", "been", "came", "come", "doing", "down",
+    "find", "first", "found", "give", "good", "have", "just", "know", "large", "last",
+    "left", "little", "long", "made", "many", "much", "must", "only", "other", "part",
+    "place", "read", "right", "said", "saw", "seem", "side", "small", "sound", "spell",
+    "still", "such", "sure", "tell", "their", "there", "these", "thing", "think", "three"
+  ],
+  "age_8": [
+    "there", "where", "happy", "around", "because", "before", "believe", "between", "country", "different",
+    "follow", "government", "however", "important", "interest", "large", "learn", "letter", "mother", "number",
+    "people", "place", "question", "read", "school", "second", "sentence", "small", "sound", "spell",
+    "still", "study", "such", "system", "there", "thing", "think", "water", "where", "which",
+    "world", "write", "young", "answer", "being", "change", "differently", "early", "family", "father",
+    "feet", "form", "friend", "great", "group", "hand", "high", "house", "idea", "land",
+    "language", "later", "leave", "level", "light", "money", "night", "paper", "person", "piece",
+    "problem", "program", "run", "start", "state", "student", "story", "study", "successful", "success",
+    "tend", "together", "try", "turn", "usually", "value", "visit", "voice", "watch", "weather", "white"
+  ]
+}

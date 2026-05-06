@@ -1,0 +1,18 @@
+{
+  "name": "safa-read-app",
+  "version": "1.0.0",
+  "description": "Safa's reading practice app for early readers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.0"
+  }
+}

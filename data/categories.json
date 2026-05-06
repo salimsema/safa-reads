@@ -1,0 +1,22 @@
+{
+  "animals": [
+    "cat", "dog", "bird", "fish", "frog", "bear", "duck", "cow", "pig", "sheep",
+    "horse", "lion", "tiger", "monkey", "rabbit", "squirrel", "mouse", "zebra", "giraffe", "elephant"
+  ],
+  "colors": [
+    "red", "blue", "green", "yellow", "orange", "purple", "pink", "black", "white", "brown",
+    "gray", "gold", "silver", "violet", "indigo", "beige", "teal", "cyan", "magenta", "lime"
+  ],
+  "food": [
+    "apple", "bread", "cake", "milk", "rice", "egg", "fish", "meat", "snow", "soup",
+    "cheese", "pizza", "pasta", "banana", "grape", "carrot", "broccoli", "cookie", "sandwich", "orange"
+  ],
+  "family": [
+    "mom", "dad", "baby", "sister", "brother", "grandma", "grandpa", "aunt", "uncle", "cousin",
+    "friend", "teacher", "doctor", "nurse", "family", "mother", "father", "parent", "girl", "boy"
+  ],
+  "numbers": [
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "eleven", "twelve", "zero", "hundred", "thousand", "once", "twice", "first", "second", "third"
+  ]
+}
