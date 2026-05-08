@@ -1,4 +1,4 @@
-const CACHE_NAME = 'safa-reads-offline-v4';
+const CACHE_NAME = 'safa-reads-offline-v5';
 
 const STATIC_ASSETS = [
   '/',
