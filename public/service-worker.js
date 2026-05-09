@@ -1,4 +1,4 @@
-const CACHE_NAME = 'safa-reads-offline-v5';
+const CACHE_NAME = 'safa-reads-offline-v6';
 
 const STATIC_ASSETS = [
   '/',
@@ -58,17 +58,24 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
 
+  // Cache-first for everything
   event.respondWith(
     caches.match(request).then((cached) => {
-      const networkFetch = fetch(request).then((response) => {
+      if (cached) return cached;
+
+      return fetch(request).then((response) => {
         if (response.ok) {
           const clone = response.clone();
           caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
         }
         return response;
-      }).catch(() => null);
-
-      return cached || networkFetch.then(res => res || caches.match('/index.html'));
+      }).catch(() => {
+        // Only fallback for navigation requests
+        if (request.mode === 'navigate') {
+          return caches.match('/index.html');
+        }
+        return new Response('Not found', { status: 404 });
+      });
     })
   );
 });
